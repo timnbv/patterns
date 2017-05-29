@@ -1,0 +1,6 @@
+It's more preferable to use Chain of responsibility pattern. The reasons are the following:
+- the task describes behaviour of request, not structure
+- we have "next" (manager) reference
+- according to the request every manager entity decides whether to approve it or pass futher
+
+Decoration pattern serves to add additional functionality to classes using composition, not inheritance
